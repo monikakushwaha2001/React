@@ -1,7 +1,10 @@
-
+import Chai from "./chai"
 function App() {
   return (
-    <h3>Hello! nice to see you. | Monika</h3>
+    <>
+    <Chai />
+    <h2>Chai aur react from chai aur code</h2>
+    </>
   );
 }
 

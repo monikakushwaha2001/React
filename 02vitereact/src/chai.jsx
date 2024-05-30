@@ -1,6 +1,9 @@
 function Chai(){
     return (
-        <h1>Chai is ready</h1>
+    <div>
+        <h5>Chai is ready</h5>
+        <p>Test Poora</p>
+        </div>
     )
 }
 

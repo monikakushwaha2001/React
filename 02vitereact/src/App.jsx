@@ -5,6 +5,7 @@ import './App.css'
 import Chai from "./chai"
 
 function App() {
+  const username="Monika Kushwaha"
   return (
     <>
       <div>
@@ -17,8 +18,8 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <h2>Hello Monika | Nice to see you</h2>
-      
+      <h2>Hello Monika | Nice to see you {username}</h2>
+
     </>
   )
 }

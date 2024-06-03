@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.calheader{
+  border:#13949b 1px solid;
+  background-color: rgb(41, 211, 154);
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.header-box {
+  width: 100vh !important; /* Full width of the parent */
+ /* max-width: 700px; /* Optional: Limit the width */
+  background-color: #fff; /* Background color for the header box */
+  border-radius: 10px; /* Rounded corners for the header box */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Box shadow for the header box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional: Background color */
+  box-sizing: border-box;
+  padding: 20px;
+  margin: auto;
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns for header buttons */
+  gap: 5px; /* Space between buttons */
+  margin-top: 5px;
+  margin-bottom: 5px; /* Space between header and numbers */
+  width: 100%; /* Full width of the parent */
+  max-width: 300px; /* Optional: Limit the width */
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns for number buttons */
+  gap: 10px; /* Space between buttons */
+  width: 100%; /* Full width of the parent */
+  max-width: 300px; /* Optional: Limit the width */
+}
+.header-box input{
+  border-radius: 5px !important;
+}
+.header h2, .numbers p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Full width of the grid cell */
+  height: 50px; /* Height of each button */
+  border: 1px solid #000; /* Border for buttons */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* Background color for buttons */
+  font-size: 24px; /* Font size for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  margin: 0px;
+  padding: 0px;
+}
+
+.header h2:hover, .numbers p:hover {
+  background-color: #e0e0e0; /* Change background on hover */
+}
+
+.header h2:active, .numbers p:active {
+  background-color: #ccc; /* Change background on active */
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

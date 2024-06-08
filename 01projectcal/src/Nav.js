@@ -6,7 +6,7 @@ export default function main(){
             <h3>Calculator</h3> 
             </div>
             <div className="header-box">
-            <input placeholder="Enter Numbers" style={{width:300,height:30}}></input>
+            <input className="input-text" placeholder="Enter Numbers" style={{width:300,height:30}}></input>
                 <div className="header">
                     <h2>AC</h2>
                     <h2>Del</h2>

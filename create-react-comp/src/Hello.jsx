@@ -6,7 +6,7 @@ function Hello(){
     }
     return(
         <p>
-            MessageNo:{number}, I am {fullName()}
+            MessageNo:{number}, I am {myname}
         </p>
     )
     return(

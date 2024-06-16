@@ -1,6 +1,6 @@
 function AppName() {
   return (
-    <center>
+    <center className="mk-row">
       <h1>TODO App</h1>
     </center>
   );
